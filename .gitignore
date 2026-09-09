@@ -1,0 +1,19 @@
+# Secrets
+.env
+*.env
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# Local data / model artifacts (large, shouldn't go in git)
+*.csv
+complaints.db
+GuardianX_DeBERTa_Final/
+guardianx_results/
+
+# OS
+.DS_Store
